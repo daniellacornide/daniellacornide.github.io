@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@800&display=swap');
+
+body {
+    background: rgb(255,255,255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(47,79,79);
+    margin: auto;
+    padding: 60px;
+    max-width: 900px
+}
+
+h1{
+  background: rgb(100,149,237);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(255,255,255);
+  margin: 0;
+  padding: 20px;
+}
+
+h2{
+  background: rgb(115, 147, 179);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(255,255,255);
+  margin: 0;
+  padding: 20px;
+}
+
+h3{
+  background: rgb(0,80,181);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(255,255,255);
+  margin: 0;
+  padding: 20px;
+}
+
+#geography {
+  padding: 30px;
+  margin: 0;
+  max-width: 900px
+}
+
+#economy {
+	padding: 30px;
+	margin: 0;
+  max-width: 900px
+}
+
+#communications {
+	padding: 30px;
+	margin: 0;
+  max-width: 900px
+}
+
+.grid-container {
+  border: 3px solid transparent;
+  border-radius: 5px 0px 0px 5px;
+  border-width: 3px 3px 3px 3px;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 10px;
+  grid-area: main;
+}
+
+.grid-item {
+  border: 3px solid rgb(115, 147, 179);
+  border-radius: 0px 0px 0px 0px;
+  border-width: 3px 3px 3px 3px;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 10px;
+  grid-area: main;
+}
+
+
+ul {
+  font-size: 12px;
+}
+
+.flag {
+	padding: 10px;
+  border: 3px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+
+}
+
+.map {
+  padding: 10px;
+  border: 3px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 2px solid rgb(0,80,181);
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+
+a:link {
+  color:rgb(75,0,130);
+}
+
+a:visited {
+  color: rgb(147,112,219);
+}
+
+a:hover {
+  color: rgb(230,230,250);
+}
+
+a:active {
+  color: rgb(172,79,198);
+}
