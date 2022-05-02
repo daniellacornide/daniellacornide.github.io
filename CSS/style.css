@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 body {
-  color: red;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(0,0,0);
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  color: rgb(61, 52,29);
+}
+
+h2{
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color:rgb(191,162,91);
+}
+
+h3{
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(200,180,130)
 }
