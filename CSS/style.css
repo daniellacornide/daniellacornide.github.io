@@ -7,23 +7,75 @@ body {
   color: rgb(0,0,0);
 }
 
+ul{
+  list-style-type: none
+}
+
+#Menu{
+  margin: 10px;
+  width: 900px;
+  font-family:"Lato", sans-serif;
+}
+
+#Menu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#Menu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgb(61,52,29);
+	color:rgb(225,225,225);
+}
+
+#Menu a:hover{
+  color: rgb(225,225,225);
+  background-color: rgb(200,180,130) /* Light Nude */
+}
+
+a:link {
+  display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgb(191,162,91);
+	color:rgb(225,225,225);
+}
+
+a:hover{
+  color: rgb(0,0,0)
+}
+
+a:visited{
+  color: rgb(200,180,130)
+}
+
 h1 {
   font-family: "Lato", sans-serif;
   font-size: 38px;
   font-weight: 900;
-  color: rgb(61, 52,29);
+  color: rgb(61,52,29); /* Dark Brown */
+  margin: 25px 0 25px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-family: "Lato", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  color:rgb(191,162,91);
+  color:rgb(191,162,91); /* Dark Nude */
+  margin: 12px 0 12px 0;
+  padding: 12px 4px 4px 8px;
 }
 
-h3{
+h3 {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: rgb(200,180,130)
+  color: rgb(200,180,130) /* Light Nude */
 }
