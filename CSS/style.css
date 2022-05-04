@@ -12,9 +12,10 @@ ul{
 }
 
 #Menu{
-  margin: 10px;
+  margin: auto;
   width: 900px;
   font-family:"Lato", sans-serif;
+  padding: 12px, 12px, 12px, 12px;
 }
 
 #Menu li {
@@ -39,11 +40,14 @@ ul{
 }
 
 a:link {
-  display:block;
-	padding:3px;
-	text-decoration:none;
-	background-color:rgb(191,162,91);
-	color:rgb(225,225,225);
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 a:hover{
@@ -70,7 +74,7 @@ h2 {
   font-weight: 700;
   color:rgb(191,162,91); /* Dark Nude */
   margin: 12px 0 12px 0;
-  padding: 12px 4px 4px 8px;
+  padding: 20px 4px 4px 8px;
 }
 
 h3 {
@@ -78,4 +82,13 @@ h3 {
   font-size: 20px;
   font-weight: 700;
   color: rgb(200,180,130) /* Light Nude */
+}
+
+img {
+  border-radius: 40px;
+  padding: 20px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
