@@ -114,6 +114,15 @@ img {
   border: 20px 20px 20px 20px;
 }
 
+#Beach img {
+  border-radius: 40px;
+  padding: 20px;
+  width: 400px;
+  display: grid;
+  margin: auto;
+  border: 20px 20px 20px 20px;
+}
+
 figure {
    max-width:64rem;
    width:1000px;
