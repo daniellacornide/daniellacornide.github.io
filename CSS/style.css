@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   color: rgb(0,0,0);
-  margin: 20px 50px 20px 50px;
+  margin-left: 15px;
 }
 
 ul{
@@ -57,8 +57,19 @@ p.Description {
   margin: auto;
 }
 
+p.AR {
+  display: block;
+  width: 1000px;
+  color: rgb(0,0,0)
+  background-color: rgb(200,180.130);
+  float: none;
+  text-align: Left;
+  align-items: center;
+  margin: 12px;
+}
+
 a:link {
-  background-color: #e7e7e7;
+  background-color: rgb(200,180,130);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -83,7 +94,7 @@ h1 {
   font-weight: 900;
   color: rgb(61,52,29); /* Dark Brown */
   margin: 25px 0 25px 0;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -123,6 +134,12 @@ img {
   border: 20px 20px 20px 20px;
 }
 
+#AR img{
+  margin-left: 12px 12px 12px 12px;
+  border-radius: 40px;
+  width: 800px;
+}
+
 figure {
    max-width:64rem;
    width:1000px;
@@ -132,6 +149,7 @@ figure {
 }
 
 footer{
-  align-items: center;
-  align-self: center;
+  background-color: rgb(61,52,29);
+  position: absolute;
+  width: 100%;
 }
