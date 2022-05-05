@@ -71,7 +71,7 @@ p.AR {
 p.Extra {
   display: block;
   width: 1000px;
-  color: rgb(0,0,0)
+  color: rgb(0,0,0);
   background-color: rgb(200,180.130);
   float: none;
   text-align: Left;
@@ -96,7 +96,7 @@ a:hover{
 }
 
 a:visited{
-  color: rgb(200,180,130)
+  color: rgb(200,180,130);
 }
 
 h1 {
