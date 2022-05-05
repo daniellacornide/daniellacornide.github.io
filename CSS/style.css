@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 body {
@@ -82,7 +83,7 @@ p.Extra {
 a:link {
   background-color: rgb(200,180,130);
   border: none;
-  color: white;
+  color: rgb(255,255,255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -143,6 +144,11 @@ img {
   display: grid;
   margin: auto;
   border: 20px 20px 20px 20px;
+}
+
+#FiveB {
+  margin: 12px;
+  padding: 12px;
 }
 
 #AR img{
